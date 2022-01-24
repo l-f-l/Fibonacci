@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    int numOfFibonacciNumbers, count, fibonacciNumber;
+    int numOfFibonacciNumbers, i, fibonacciNumber;
     int fibonacciNumberMinus1 = 1;
     int fibonacciNumberMinus2 = 0;
 
@@ -12,9 +12,9 @@ int main()
 
     if (numOfFibonacciNumbers > 1)
     {
-        for (count = 0; count < numOfFibonacciNumbers; count++)
+        for (i = 0; i < numOfFibonacciNumbers; i++)
         {
-            if (count > 0)
+            if (i > 0)
             {
                 fibonacciNumber = fibonacciNumberMinus1 + fibonacciNumberMinus2;
                 fibonacciNumberMinus2 = fibonacciNumberMinus1;
