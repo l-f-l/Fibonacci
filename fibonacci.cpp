@@ -3,9 +3,7 @@ using namespace std;
 
 int main()
 {
-    int numOfFibonacciNumbers;
-    int count;
-    int fibonacciNumber;
+    int numOfFibonacciNumbers, count, fibonacciNumber;
     int fibonacciNumberMinus1 = 1;
     int fibonacciNumberMinus2 = 0;
 
